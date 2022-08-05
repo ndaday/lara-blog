@@ -31,3 +31,10 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('/post', function () {
+    return view('post');
+});
+Route::get('/about', function () {
+    return view('about');
+});
